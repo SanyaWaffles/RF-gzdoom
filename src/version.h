@@ -41,7 +41,7 @@ const char *GetVersionString();
 
 /** Lots of different version numbers **/
 
-#define VERSIONSTR "4.10.0"
+#define VERSIONSTR "4.10.1"
 
 // The version as seen in the Windows resource
 #define RC_FILEVERSION 4,10,0
@@ -50,12 +50,12 @@ const char *GetVersionString();
 // These are for content versioning.
 #define VER_MAJOR 4
 #define VER_MINOR 10
-#define VER_REVISION 0
+#define VER_REVISION 1
 
 // This should always refer to the GZDoom version a derived port is based on and not reflect the derived port's version number!
 #define ENG_MAJOR 4
 #define ENG_MINOR 10
-#define ENG_REVISION 0
+#define ENG_REVISION 1
 
 // Version identifier for network games.
 // Bump it every time you do a release unless you're certain you
@@ -81,7 +81,7 @@ const char *GetVersionString();
 // SAVESIG should match SAVEVER.
 
 // extension for savegames
-#define SAVEGAME_EXT "zds"
+#define SAVEGAME_EXT "rfds"
 
 // MINSAVEVER is the minimum level snapshot version that can be loaded.
 #define MINSAVEVER 4556
@@ -92,15 +92,17 @@ const char *GetVersionString();
 
 // This is so that derivates can use the same savegame versions without worrying about engine compatibility
 #define GAMESIG "GZDOOM"
-#define BASEWAD "gzdoom.pk3"
+#define BASEWAD "rfgzdoom.pk3"
 #define OPTIONALWAD "game_support.pk3"
 #define GZDOOM 1
 #define VR3D_ENABLED
 
 // More stuff that needs to be different for derivatives.
-#define GAMENAME "GZDoom"
-#define WGAMENAME L"GZDoom"
-#define GAMENAMELOWERCASE "gzdoom"
+#define GAMENAME "Relentless Frontier"
+#define WGAMENAME L"Relentless Frontier"
+#define GAMENAMELOWERCASE "relentless frontier"
+#define GAMENAMECONFIGNAME "rfconfig"
+#define GAMENAMESOUNDFONT "rf"
 #define FORUM_URL "http://forum.zdoom.org/"
 #define BUGS_FORUM_URL	"http://forum.zdoom.org/viewforum.php?f=2"
 

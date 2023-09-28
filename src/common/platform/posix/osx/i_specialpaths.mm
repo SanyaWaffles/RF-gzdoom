@@ -177,7 +177,7 @@ FString M_GetConfigPath(bool for_reading)
 		}
 	}
 
-	return path + GAMENAMELOWERCASE ".ini";
+	return path + GAMENAMECONFIGNAME ".ini";
 }
 
 //===========================================================================
